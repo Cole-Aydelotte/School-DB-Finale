@@ -29,8 +29,7 @@ def createDatabase(cursor, DB_NAME):
 # );
 
 def makeTable(cursor):
-    sql = "CREATE TABLE items (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), " \
-        "price DECIMAL(10, 2), stock INT)"
+    sql = "CREATE TABLE items (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), price DECIMAL(10, 2), stock INT);"
     cursor.execute(sql)
     print("items table created")
 
