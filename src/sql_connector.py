@@ -1,3 +1,6 @@
+'''
+Created By: <Cole Aydelotte>
+'''
 import mysql.connector
 
 cnx = mysql.connector.connect(user='project', password='project',

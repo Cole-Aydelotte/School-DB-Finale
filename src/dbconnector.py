@@ -5,7 +5,7 @@ import mysql.connector
 
 def connectToMySQL():
     cnx = mysql.connector.connect(password = 'project', user='project')
-    cursor = cnx.cursor()
+    cursor = cnx.cursor(buffered=True)
     return cursor, cnx
 
 '''
@@ -34,26 +34,22 @@ def makeTable(cursor):
     print("items table created")
 
 def insertData(cursor):
+    # zItems contains 3 values:
+    # name, decimal price, integer
+
     infile = open("zitems.txt", "r")
-    header = infile.readline()
-    record = ''
-    data = ''
+    lines = infile.readlines()
+    x = 0
+    for line in lines:
+        x += 1
+        name, price, stock = line.split(",")
 
-    for line in infile:
-        sql = ""
-        line = line.strip()
-        record = line.split(",")
-        data = ""
 
-        for i in range(3):
-            if record[i] == "NULL":
-                data += "NULL,"
-            else:
-                data += "'" + record[i] + "', "
-
-        data = data[:-2]
-        sql = "INSERT INTO items VALUES (" + data + ");"
-        cursor.execute(sql)
+        query = f"INSERT INTO items (name, price, stock) VALUES (%s, %s, %s)"
+        print(f"{x} inserted name {name}, price {price}, stock {stock}")
+        val = (name, price, stock)
+        cursor.execute(query, val)
+        cursor.execute("commit;")
     infile.close()
     print("item data inserted into Items table")
 
@@ -65,8 +61,10 @@ def main():
     cursor.execute("USE {}".format(DB_NAME))
     makeTable(cursor)
     insertData(cursor)
-    put = print(input("what would you like to search?"))
-    cursor.execute("select * from items like %" + put + "%;")
+    put = input("what would you like to search?\n")
+    query = f'SELECT name FROM items WHERE name LIKE "%{put}%";'
+    pri = cursor.execute(query)
+    print(pri)
     connection.commit()
     cursor.close()
     connection.close()

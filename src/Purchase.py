@@ -1,3 +1,6 @@
+'''
+Created By: <Cole Aydelotte>
+'''
 class Purchase:
     def __init__(self, pass_cart, purchasable_items, phone_number):
         self.cart = pass_cart

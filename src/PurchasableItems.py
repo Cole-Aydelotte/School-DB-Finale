@@ -1,3 +1,6 @@
+'''
+Created By: <Cole Aydelotte>
+'''
 import random
 
 class PurchasableItems:

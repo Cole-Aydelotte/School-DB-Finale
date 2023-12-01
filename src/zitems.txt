@@ -9,9 +9,7 @@ Duralast ceramic brake pads,45.99,10
 Oil filter,12.99,10
 delphi mass air flow sensor,405.99,10
 Yukon gear axle unit,157.99,10
-Duralast ceramic brake pads, rear,26.49,10
 Duralast brake rotor pads,81.99,10
-Duralast cermaic brake pads, front,33.49,10
 Duralast starter button,13.99,10
 Ignition coil,13.39,10
 Edlebrock clockwise rotation sensor,53.99,10
@@ -25,12 +23,10 @@ Proform transmission dipstick,37.99,10
 Duralast locking fuel cap,11.99,10
 Powerstop performance rotors,185.99,10
 Fan blade motor,201.99,10
-Engine, remanu,4100.00,10
 Lucas fuel treatment,6.99,10
 Delphi fuel pump,988.99,10
 Stoprite front brake pads,27.99,10
 Duralast Gold Ceramic Brake Pads DG1363,56.99,10
-Mobil 1 engine oil10w-40, 1qt,12.49,10
 Auto transaxle filter,51.59,10
 Bypass hose,14.99,10
 Remote oil filter mounting kit,80.39,10
@@ -51,7 +47,6 @@ Hopkins electrical wire connector,25.99,10
 Holley EFI throttle position sensor,85.99,10
 Anti lock right front sensor,194.99,10
 Engine remanu,4880.00,10
-Valvoline engine oil10w-40, 1qt,8.49,10
 Dorman OE solutions fuel line kit,22.49,10
 Brake shoe repair kit,18.59,10
 Brake rotor and pad kit,169.99,10
@@ -67,7 +62,6 @@ STP Air Filter SA10110,24.99,10
 STP Premium Air Filter PSA10110,24.99,10
 Duralast Brake Pads D883,38.99,10
 Duralast Semi-Metallic Brake Pads MKD1169A,40.00,10
-Oil filter, gold,37.99,10
 NuTech Remanufactured Long Block Engine DCVX,4738.99,10
 Duralast Radiator B13007,294.99,10
 XtraVision Headlight and Fog Light Bulb H13XV-2,37.99,10
@@ -106,12 +100,10 @@ Power steering filter,25.99,10
 Rack and pinion,529.99,10
 Delphi Fuel Pump CFG1055,359.99,10
 STP Extended Life Oil Filter S9018RXL,10.99,10
-Xtravision headlight, fog,37.99,10
 TruGrade Fuel Pump D6631M,259.99,10
 STP Air Filter SA9492,17.99,10
 Duralast front drvr brake caliper,103.99,10
 Duralast front pass brake caliper,103.99,10
-STP oil filter, gold,14.99,10
 Steering knuckle front right,367.99,10
 Steering knuckle front left,367.99,10
 STP Premium Air Filter PSA9492,24.99,10
@@ -121,11 +113,8 @@ Duralast relay,14.99,10
 All Trans Remanufactured Automatic Transmission Assembly A173057,1955.99,10
 Duralast ceramic brake rotor,69.99,10
 Dorman engine coolant temp sensor clip,10.29,10
-STP dexon vi auto trans fluid, 1qt,11.49,10
 STP oil filter,11.49,10
-Valvoline max life 0w-20, 1qt,11.49,10
 Duralast power steering pump,248.99,10
-Valvoline 0w-20, 5qt,37.99,10
 All Trans Remanufactured Automatic Transmission Assembly A173056,1955.99,10
 Durlast Bearing,166.99,10
 Compressor works power steering cooler line,27.99,10
@@ -141,14 +130,12 @@ Auto trans filter kit,26.79,10
 Dorman brake ABS sensor,41.99,10
 Intake valve stem seal,4.59,10
 Dorman coolant temp sensor,33.99,10
-Plug gasket, transmission,1.69,10
 Standard LED 194 mini,9.99,10
 Engine remanu,6070.00,10
 Silentguard rear brake pads,49.99,10
 Air temp sensor,109.19,10
 Ball joint front lower,39.19,10
 Gold cabin filter,72.99,10
-Belt, serpentine,31.99,10
 Throttle body unit,15.99,10
 Air helper spring kit,114.99,10
 Brake hose,28.99,10
