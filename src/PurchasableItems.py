@@ -31,7 +31,6 @@ class PurchasableItems:
                 result += f", Stock: {item.get_stock()} Barcode: {item.get_barcode()} Price: {item.get_price()} Name: {item.get_name()} "
         return result
 
-
 #New Class
 
 class ShoppingCart:
