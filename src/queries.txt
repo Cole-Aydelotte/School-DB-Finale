@@ -1,0 +1,10 @@
+SELECT * FROM items;
+SELECT * FROM items ORDER BY item_price DESC LIMIT 5;
+SELECT item_name From items WHERE item_name LIKE '%e%'
+SELECT AVG(item_price) AS average_price FROM items;
+SELECT * FROM transactions ORDER BY transaction_id DESC LIMIT 5;
+SELECT * FROM items WHERE item_name LIKE '%battery%';
+SELECT * FROM items ORDER BY item_price DESC;
+SELECT * FROM items WHERE item_price < 50;
+SELECT * FROM items WHERE item_price > 50.0;
+SELECT COUNT(*) AS total_items FROM items;
